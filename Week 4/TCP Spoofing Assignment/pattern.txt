@@ -1,0 +1,62 @@
+6156c189		A	B	C	D
+576189c1		B+1 A	D	C     
+6158c189		A	B+2 C	D     
+618959c1		A	C	B+3 D     
+896159c1		C   A   B+3 D     
+5a89c161        B+4 C   D   A     
+89c1615b        C   D   A   B+5
+61895cc1        A   D   B+6 C
+615c89c1        A   B+6 D   C
+c1615d89        C   A   B+7 D
+615e89c1        A   B+8 D   C
+895fc161        D   B+9 C   A
+895fc161        D   B+9 C   A
+616089c1        A   B+10D   C
+89c16161        D   C   A   B+11
+896162c1        D   A   B+12C
+62c16189		B+12C   A   D
+c1618963        C   A   D   B+13
+c1648961        C   B+14D   A
+61c18965        A   C   D   B+15
+65c18961        B+15C   D   A
+8966c161        D   B+16C   A
+67c16189        B+17C   A   D
+6861c189        B+18A   C   D
+61c18968        A   C   D   B+18
+896169c1        D   A   B+19C
+61896ac1        A   D   B+20C
+c1896b61        C   D   B+21A
+c16b8961        C   B+21D   A
+6c6189c1        B+22A   D   C
+
+
+895061d9		D   B+n A   C
+89d95161		
+
+896159c1		A   B   C+3 D     
+5a89c161        C+4 A   D   B     
+89c1615b        C   D   A   B+5
+61895cc1        A   D   B+6 C
+615c89c1        A   B+6 D   C
+c1615d89        C   A   B+7 D
+615e89c1        A   B+8 D   C
+895fc161        D   B+9 C   A
+895fc161        D   B+9 C   A
+616089c1        A   B+10D   C
+89c16161        D   C   A   B+11
+896162c1        D   A   B+12C
+62c16189		B+12C   A   D
+
+
+
+0x89 0x9b 0x61 0xf9
+0x9d 0x89 0x61 0xf9
+0x9f 0xf9 0x89 0x61
+0x89 0xa0 0x61 0xf9
+
+
+
+
+
+
+

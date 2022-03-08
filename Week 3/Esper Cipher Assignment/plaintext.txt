@@ -1,0 +1,25 @@
+Hacking is often considered more than a skill. In popular culture, hackers
+are seen as wizards of sorts, artists with powers to access the
+inaccessible, or perform acts that seem impossible. Hacking, like art, has
+great people, who are recognized for their skills, but whose abilities
+cannot be captured or reproduced. In fact, a single great hacker in a team
+is better than a hundred mediocre ones, similar to as none of the paintings
+from a hundred mediocre artists can match a painting from van Gogh.
+
+Vulnerability analysis is the science of capturing and reproducing what
+some hackers do. Vulnerability analysis studies how one can reason, in a
+principled way, about finding and exploiting vulnerabilities in all types
+of software or hardware. By developing algorithms and tools to help humans
+identify flaws in software, researchers "codify" the knowledge that hackers
+use, in an organic way, to analyze systems and find their flaws. The
+resulting tools can then be used at scale, and composed to create new
+analysis systems.
+
+This scientific process has generated a number of useful tools, such as
+static analysis tools, fuzzers, and symbolic execution frameworks. However,
+these tools codify only a subset of the skills of a hacker, and they are
+still used only to augment the abilities of humans.
+
+One approach to push the codification of what human hackers do, is to take
+the hackers out of the equation. This is precisely what the DARPA Cyber
+Grand Challenge was set out to do.

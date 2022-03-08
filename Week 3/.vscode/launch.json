@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Decryption Esper",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-d=${workspaceFolder}/ciphertext.txt",
+                "-k=rORTrfA",
+                "-b=2"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Decryption Marco",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-d=${workspaceFolder}/marco_encrypted_text.txt",
+                "-k=yyseLsC",
+                "-b=1"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Encryption Marco",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "-e=${workspaceFolder}/marco_plaintext.txt",
+                "-o=${workspaceFolder}/marco_encrypted_text.txt"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
